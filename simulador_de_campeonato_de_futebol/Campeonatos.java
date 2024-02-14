@@ -9,8 +9,8 @@ public class Campeonatos {
 	public Campeonatos() {
         clubes_escalados = new ArrayList<>();
     }
-	public void add_clube(clube c) {
-		clubes_escalados.add(c);
+	public void add_clube(clube clube_add) {
+		clubes_escalados.add(clube_add);
 	}
 	private void jogarpartida(clube a,clube b) {
 		System.out.println("Inisiando a partida do "+a.nome+" vs "+b.nome);
